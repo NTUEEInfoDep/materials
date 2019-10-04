@@ -1,0 +1,65 @@
+html, body
+{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title
+{
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    margin: 60px 0px 40px 0px;
+}
+
+#inputDiv
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#winner
+{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2.5% 0% 2.5% 0%;
+}
+
+#board_length
+{
+    margin-right: 10px;
+}
+
+#board
+{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container
+{
+    display: flex;
+}
+
+.box 
+{
+    border: 1px solid black;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgba(204, 224, 255, 0.5);
+}
